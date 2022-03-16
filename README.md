@@ -1,9 +1,9 @@
 # React를 활용하여 Instagram 웹페이지 구현
 
 ## 👨‍👨‍👦‍👦 프로젝트 구성원
-  - [김민기]()
-  - [장우재]()
-  - [이승현](https://github.com/IlearnML)
+- [김민기](https://github.com/minki0415)
+- [장우재](https://github.com/WoojaeJang)
+- [이승현](https://github.com/IlearnML)
 
 
 ## 📑 프로젝트 개요
@@ -54,19 +54,19 @@
 <br/>
 
 ## 💎 새롭게 배운 내용
-  - Firebase 의 다양한 기능 사용 : Authentication, Firestroe, Storage
-  - material-ui 활용하여 기존에 만들어져있는 컴포넌트 불러와서 사용 (Avatar, Modal 등)
-  - createUserWithEmailAndPassword : auth에 내장된 회원가입 메서드로 이메일 주소와 비밀번호를 가져와 유효성을 검사한 후 신규 사용자 생성하고자 할때 사용 - Firebase의 서버 데이터와 대조 후 아이디 정보가 없다면 새로 회원가입을 진행
-  - onAuthStateChanged : 현재 로그인된 사용자를 불러오는 메서드
-  - signInWithEmailAndPassword : email 과 password를 활용해 비동기식으로 로그인 하는 메서드
-  - addDoc : 문서 작성 시 setDoc을 활용할 경우 문서의 ID를 지정해야 작성이 가능하나 addDoc을 활용시 자동으로 ID를 생성할 수 있어 이미지 업로드 및 댓글 달기에 사용
+- Firebase 의 다양한 기능 사용 : Authentication, Firestroe, Storage
+- material-ui 활용하여 기존에 만들어져있는 컴포넌트 불러와서 사용 (Avatar, Modal 등)
+- createUserWithEmailAndPassword : auth에 내장된 회원가입 메서드로 이메일 주소와 비밀번호를 가져와 유효성을 검사한 후 신규 사용자 생성하고자 할때 사용 - Firebase의 서버 데이터와 대조 후 아이디 정보가 없다면 새로 회원가입을 진행
+- onAuthStateChanged : 현재 로그인된 사용자를 불러오는 메서드
+- signInWithEmailAndPassword : email 과 password를 활용해 비동기식으로 로그인 하는 메서드
+- addDoc : 문서 작성 시 setDoc을 활용할 경우 문서의 ID를 지정해야 작성이 가능하나 addDoc을 활용시 자동으로 ID를 생성할 수 있어 이미지 업로드 및 댓글 달기에 사용
 
 ## ⛔ Error revising
 - Firebase Database 사용시 Realtime Database가 아닌 Firestore Database를 활용하여 instagram의 sign in, sign up, post등을 구현하고자 하였으나 오류가 발생, 해당 오류가 버전차이임을 확인하고 수정 후 오류 해결
 - instagramEmbed 에서 발생한 코드 오류
 
 ## 🔧 앞으로의 개선할 사항
-  1. 현재 App.js 파일에 많은 부분이 들어가 있음, 파일로 나눠서 작성
-  2. material-ui를 활용하여 만들었던 컴포넌트들을 직접 코딩하여 구현하기
-  3. App.js에 들어있는 스타일 관련 코드 구분하여 작성하기
+- 현재 App.js 파일에 많은 부분이 들어가 있음, 파일로 나눠서 작성
+- material-ui를 활용하여 만들었던 컴포넌트들을 직접 코딩하여 구현하기
+- App.js에 들어있는 스타일 관련 코드 구분하여 작성하기
 
